@@ -8,7 +8,7 @@ body {
   };
 
 h1 {
-  font-size: 3rem;
+  font-size: 1rem;
   color:  rgb(55, 84, 55);
 }
 
@@ -21,6 +21,8 @@ header > img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  width:15%; 
+  height:15%;
 }
 
 nav {
@@ -42,6 +44,11 @@ nav a{
   flex: 1;
 }
 
+#cart-image{
+  width: 30%; 
+  height:25%; 
+}
+
 section {
   display: flex;
 }
@@ -59,7 +66,7 @@ picture{
 }
 
 picture p:nth-child(3) {
-  font-size: 20px;
+  font-size: 1.25rem;
   margin-top: 50px;
 }
 
@@ -179,6 +186,45 @@ footer{
 @media screen and (max-width: 720px) {
   nav {
     display: block;
+  }
+  nav a{
+    text-decoration: none;
+    font-size: 0.75rem;
+    margin-top: 3%;
+    display: block;
+    padding-right: 10px;
+  }
+  .dropdown {
+    font-size: 0.75rem;
+    margin-top: 3%;
+    padding-left: 18%;
+    display: block;
+  }
+ section{
+    display: block;
+    max-width:100%;
+    height: auto;
+  }
+ picture{
+    display: block;
+    max-width:100%;
+    height: auto;
+  }
+  h2{
+    font-size: 1.1rem;
+    color: rgb(55, 84, 55);
+  }
+  picture p:nth-child(3) {
+    font-size: 0.8rem;
+    margin-top: 5%;
+  }
+  header > img {
+    width:20%; 
+    height:20%;
+  }
+  #cart-image{
+    width: 8%; 
+    height:8%; 
   }
 }
 
