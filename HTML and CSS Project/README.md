@@ -1,1 +1,1 @@
-This folder contains a project to create a home page for a fictional website, Lucky Shrub.  It utilizes HTML and CSS to create responsive content, including optimizing the display for smaller screens and mobile.
+This folder contains a project to create a home page for a fictional website, Lucky Shrub.  It utilizes HTML and CSS to create responsive content, including optimizing the display for large and smaller screens.
